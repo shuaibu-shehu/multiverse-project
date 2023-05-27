@@ -106,6 +106,83 @@
             margin-top: 50px;
             margin-bottom: 50px;
         }
+
+        /* pricing section */
+        .Pricing {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 60px;
+
+
+        }
+
+        .price {
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            margin: 10px;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+
+        .price h2 {
+            font-size: medium;
+            text-align: center;
+            padding: 15px 0;
+            background-color: #ddd;
+            width: 100%;
+        }
+
+        .price h1 {
+            margin-top: 15px;
+        }
+
+        .price ol {
+            margin: 15px 0;
+        }
+
+        .price ol li {
+            margin: 15px 0;
+            list-style-type: none;
+        }
+
+        .price button {
+            border: none;
+            padding: 10px;
+            font-weight: 500;
+            margin: 15px 0;
+            background-color:darkorange ;
+
+        }
+        footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer  ul  li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+footer  ul  li a{
+    text-decoration: none;
+    color: #444;
+}
+
+footer  span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
     </style>
 </head>
 
@@ -175,6 +252,51 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </section>
+
+    <!-- pricing section -->
+    <section class="Pricing">
+        <div class="price">
+            <h2>TENOR TROMBONE</h2>
+            <h1>$600</h1>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button>SELECT</button>
+        </div>
+        <div class="price">
+            <h2>TENOR TROMBONE</h2>
+            <h1>$900</h1>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button>SELECT</button>
+        </div>
+        <div class="price">
+            <h2>TENOR TROMBONE</h2>
+            <h1>$600</h1>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button>SELECT</button>
+        </div>
+    </section>
+    <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+       </footer>
 </body>
 
 </html>
