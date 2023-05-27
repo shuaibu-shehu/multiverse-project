@@ -6,10 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+         
+         header{
+            position: fixed;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 75px;
+            background-color: #d6d3d3;
+            align-items: center;
+         }
+       .logo-box{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        width: 300px;
+       }
+       img{
+        width: 100%;
+       }
+       nav ul{
+        display: flex;
+        
+       }
+       nav ul li{
+        list-style: none;
+        padding: 10px;
+       }
+    </style>
 </head>
 
 <body>
-    <h1>Hello World, we are software developers!</h1>
+    <header>
+
+       <div class="logo-box">
+           <img src="product-landing-page-logo.png" alt="">
+       </div>
+        <nav>
+            <ul>
+                <li>Features</li>
+                <li>How it works</li>
+                <li>Pricing</li>
+            </ul>
+        </nav>
+    </header>
 </body>
 
 </html>
